@@ -1,0 +1,648 @@
+        #foreground {
+            position: absolute;
+            z-index: 2;
+            width: 100%;
+            height: 100%;
+        }
+
+        #foreground2 {
+            position: absolute;
+            z-index: 2;
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+        /***SLIDER**/
+        #slider {
+            position: relative;
+            overflow: hidden;
+            margin: 0;
+            height: auto;
+        }
+        
+        #slider ul {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            position: absolute;
+            top: 48%;
+            transform: translateY(-50%);
+            height: auto;
+        }
+        
+        #slider ul li {
+            position: relative;
+            display: block;
+            float: left;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: transparent;
+            text-align: center;
+            color: #FFF;
+        }
+        /**TEXT REVEALING**/
+        
+        .revealing {
+            text-align: center;
+            background: transparent;
+            font-weight: 300;
+            overflow: hidden;
+            width: 100%;
+            -webkit-backface-visibility: hidden;
+            -webkit-perspective: 1000;
+            -webkit-transform: translate3d(0, 0, 0);
+        }
+
+        @keyframes showup-A {
+            0% {display: inherit;}
+            50% {display: inherit;}
+            51% {display: none;}
+            100% {display: none;}
+        }
+
+        @keyframes showup-B {
+            0% {display: none;}
+            50% {display: none;}
+            51% {display: inherit;}
+            100% {display: inherit;}
+        }
+
+        div.text-revealed2 {
+            
+            overflow: hidden !important;
+        }
+
+        div.text-revealing,
+        div.text-revealed,
+        div.text-revealed2 {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        
+        div.text-revealing {
+            animation: showup 12s infinite;
+        }
+        
+        div.text-revealed .text-r-innder {
+            margin-left: -1200px;
+            animation: slidein 12s infinite;
+        }
+        
+        div.text-revealed2 .text-r-innder {
+            margin-left: -1200px;
+            animation: slidein02 12s infinite;
+        }
+        
+        @keyframes showup {
+            0% {opacity: 0;}
+            4% {opacity: 1;}
+            5% {opacity: 1;}
+            47.5% {opacity: 1;}
+            50% {opacity: 1;}
+            52.5% {opacity: 1;}
+            95% {opacity: 1;}
+            96% {opacity: 0;}
+            100% {opacity: 0;}
+        }
+        
+        @keyframes slidein {
+            0%   {margin-left: -1200px;}
+            2.5% {margin-left: -1200px;}
+            5%   {margin-left: 0px;}
+            12.5%{margin-left: 0px;}
+            18%  {margin-left: 0px;}
+            22.5%{margin-left: -1200px;}
+            25%  {margin-left: -1200px;}
+            100% {margin-left: -1200px;}
+        }
+        
+        @keyframes slidein02 {
+            25% {margin-left: -1200px;}
+            27.5% {margin-left: -1200px;}
+            30% {margin-left: 0px;}
+            55% {margin-left: 0px;}
+            87.5% {margin-left: 0px;}
+            90.0% {margin-left: -1200px;}
+            100% {margin-left: -1200px;}
+        }
+        
+        div.text-revealing2 {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        
+        div.text-revealing2:first-of-type {
+            animation: showup-A 12s infinite;
+        }
+        
+        div.text-revealing2:last-of-type span {
+            margin-left: -300px;
+            animation: slidein-A 12s infinite;
+        }
+        
+        @keyframes showup-A {
+            0% {opacity: 0;}
+            5% {opacity: 0;}
+            10% {opacity: 1;}
+            40% {opacity: 1;}
+            50% {opacity: 0;}
+            100% {opacity: 0;}
+        }
+        
+        @keyframes slidein-A {
+            0% {margin-left: -800px;}
+            10% {margin-left: -800px;}
+            17.5% {margin-left: 0px;}
+            50% {margin-left: 0px;}
+            100% {margin-left: 0px;}
+        }
+
+        div.text-revealing3 {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        
+        div.text-revealing3:first-of-type {
+            animation: showup-B 12s infinite;
+        }
+        
+        div.text-revealing3:last-of-type span {
+            margin-left: -300px;
+            animation: slidein-B 12s infinite;
+        }
+
+        @keyframes showup-B {
+            0% {opacity: 0;}
+            50% {opacity: 0;}
+            55% {opacity: 0;}
+            60% {opacity: 1;}
+            90% {opacity: 1;}
+            100% {opacity: 0;}
+        }
+        
+        @keyframes slidein-B {
+            0% {margin-left: -800px;}
+            50% {margin-left: -800px;}
+            60% {margin-left: -800px;}
+            67.5% {margin-left: 0px;}
+            100% {margin-left: 0px;}
+        }
+
+        /**rotating text**/
+        
+        .rotating {
+            border: 1px solid transparent;
+            padding: 0;
+            text-align: left;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .letter {
+            display: inline-block;
+            position: relative;
+            float: left;
+            transform: translateZ(25px);
+            transform-origin: 50% 50% 25px;
+        }
+        
+        .letter.out {
+            transform: rotateX(90deg);
+            transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        }
+        
+        .letter.behind {
+            transform: rotateX(-90deg);
+        }
+        
+        .letter.in {
+            transform: rotateX(0deg);
+            transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+
+/***RESPONSIVENESS***/
+
+@media(max-width : 479px) {
+    .word {
+            position: absolute;
+            width: 110px;
+            opacity: 0;
+    }
+    .revealing {
+            font-size: 16px;
+        }
+        div.text-revealed {
+            width: 0px;
+            animation: reveal-768 12s infinite;
+        }
+
+        @keyframes reveal-768 {
+            0%   {opacity: 0;width: 0px;}
+            2%   {opacity: 0;}
+            2.5% {opacity: 1;width: 0px;}
+            6%   {width: 250px;}
+            12%  {opacity: 1;}
+            12.5%{opacity: 1;width: 250px;}
+            13%  {opacity: 1;}
+            18%  {width: 250px;}
+            22.5% {opacity: 1;width: 0px;}
+            23% {opacity: 0;}
+            25% {opacity: 0;width: 0px;
+            }
+            100% {opacity: 0;width: 0px;}
+        }
+
+        div.text-revealed2 {
+            width: 0px;
+            animation: reveal02-768 12s infinite;
+            text-align: left !important;
+            margin-left: -0.3em;
+            overflow: hidden;
+        }
+
+        @keyframes reveal02-768 {
+            25%     {opacity: 0; width: 0px;}
+            27%     {opacity: 0;}
+            27.5%   {opacity: 1;width: 0px;}
+            31%     {width: 110px;}
+            37%     {opacity: 1;}
+            62.5%   {opacity: 1;width: 110px;}
+            88%     {opacity: 1;}
+            90%     {width: 110px;}
+            93.5%   {opacity: 1;width: 0px;}
+            97%     {opacity: 0;}
+            97%     {opacity: 0;width: 0px;}
+            100%    {opacity: 0; width: 0px;}
+        }
+
+        div.text-revealing2:last-of-type {
+            width: 0px;
+            animation: reveal-A-768 12s infinite;        
+        }
+
+        @keyframes reveal-A-768 {
+            0% {opacity: 0;width: 0px;}
+            10% {opacity: 1;width: 0px;}
+            15% {width: 155px;}
+            40% {opacity: 1;}
+            50% {opacity: 0;width: 155px;}
+            100% {opacity: 0;width: 155px;}
+        }
+
+        div.text-revealing3:last-of-type {
+            width: 0px;
+            animation: reveal-B-768 12s infinite;
+        }
+
+        @keyframes reveal-B-768 {
+            0% {opacity: 0;width: 0px;}
+            50% {opacity: 0;width: 0px;}
+            60% {opacity: 1;width: 0px;}
+            65% {width: 150px;}
+            90% {opacity: 1;}
+            100% {opacity: 0;width: 150px;}
+        }
+}
+
+@media(min-width :480px){
+    .word {
+            position: absolute;
+            width: 140px;
+            opacity: 0;
+    }
+    .revealing {
+            font-size: 20px;
+        }
+        div.text-revealed {
+            width: 0px;
+            animation: reveal-768 12s infinite;
+        }
+
+        @keyframes reveal-768 {
+            0%   {opacity: 0;width: 0px;}
+            2%   {opacity: 0;}
+            2.5% {opacity: 1;width: 0px;}
+            6%   {width: 315px;}
+            12%  {opacity: 1;}
+            12.5%{opacity: 1;width: 315px;}
+            13%  {opacity: 1;}
+            18%  {width: 315px;}
+            22.5% {opacity: 1;width: 0px;}
+            23% {opacity: 0;}
+            25% {opacity: 0;width: 0px;
+            }
+            100% {opacity: 0;width: 0px;}
+        }
+
+        div.text-revealed2 {
+            width: 0px;
+            animation: reveal02-768 12s infinite;
+            text-align: left !important;
+            margin-left: -0.3em;
+            overflow: hidden;
+        }
+
+        @keyframes reveal02-768 {
+            25%     {opacity: 0; width: 0px;}
+            27%     {opacity: 0;}
+            27.5%   {opacity: 1;width: 0px;}
+            31%     {width: 140px;}
+            37%     {opacity: 1;}
+            62.5%   {opacity: 1;width: 140px;}
+            88%     {opacity: 1;}
+            90%     {width: 140px;}
+            93.5%   {opacity: 1;width: 0px;}
+            97%     {opacity: 0;}
+            97%     {opacity: 0;width: 0px;}
+            100%    {opacity: 0; width: 0px;}
+        }
+
+        div.text-revealing2:last-of-type {
+            width: 0px;
+            animation: reveal-A-768 12s infinite;        
+        }
+
+        @keyframes reveal-A-768 {
+            0% {opacity: 0;width: 0px;}
+            10% {opacity: 1;width: 0px;}
+            15% {width: 200px;}
+            40% {opacity: 1;}
+            50% {opacity: 0;width: 200px;}
+            100% {opacity: 0;width: 200px;}
+        }
+
+        div.text-revealing3:last-of-type {
+            width: 0px;
+            animation: reveal-B-768 12s infinite;
+        }
+
+        @keyframes reveal-B-768 {
+            0% {opacity: 0;width: 0px;}
+            50% {opacity: 0;width: 0px;}
+            60% {opacity: 1;width: 0px;}
+            65% {width: 190px;}
+            90% {opacity: 1;}
+            100% {opacity: 0;width: 190px;}
+        }
+    
+}
+@media(min-width:768px){
+    .word {
+            position: absolute;
+            width: 22.5rem;
+            opacity: 0;
+    }
+    .revealing {
+            font-size: 32px;
+        }
+        div.text-revealed {
+            width: 0px;
+            animation: reveal-768 12s infinite;
+        }
+
+        @keyframes reveal-768 {
+            0%   {opacity: 0;width: 0px;}
+            2%   {opacity: 0;}
+            2.5% {opacity: 1;width: 0px;}
+            6%   {width: 53rem;}
+            12%  {opacity: 1;}
+            12.5%{opacity: 1;width: 53rem;}
+            13%  {opacity: 1;}
+            18%  {width: 53rem;}
+            22.5% {opacity: 1;width: 0px;}
+            23% {opacity: 0;}
+            25% {opacity: 0;width: 0px;
+            }
+            100% {opacity: 0;width: 0px;}
+        }
+
+        div.text-revealed2 {
+            width: 0px;
+            animation: reveal02-768 12s infinite;
+            text-align: left !important;
+            margin-left: -0.3em;
+            overflow: hidden;
+        }
+
+        @keyframes reveal02-768 {
+            25%     {opacity: 0; width: 0px;}
+            27%     {opacity: 0;}
+            27.5%   {opacity: 1;width: 0px;}
+            31%     {width: 22.5rem;}
+            37%     {opacity: 1;}
+            62.5%   {opacity: 1;width: 22.5rem;}
+            88%     {opacity: 1;}
+            90%     {width: 22.5rem;}
+            93.5%   {opacity: 1;width: 0px;}
+            97%     {opacity: 0;}
+            97%     {opacity: 0;width: 0px;}
+            100%    {opacity: 0; width: 0px;}
+        }
+
+        div.text-revealing2:last-of-type {
+            width: 0px;
+            animation: reveal-A-768 12s infinite;        
+        }
+
+        @keyframes reveal-A-768 {
+            0% {opacity: 0;width: 0px;}
+            10% {opacity: 1;width: 0px;}
+            15% {width: 33rem;}
+            40% {opacity: 1;}
+            50% {opacity: 0;width: 33rem;}
+            100% {opacity: 0;width: 33rem;}
+        }
+
+        div.text-revealing3:last-of-type {
+            width: 0px;
+            animation: reveal-B-768 12s infinite;
+        }
+
+        @keyframes reveal-B-768 {
+            0% {opacity: 0;width: 0px;}
+            50% {opacity: 0;width: 0px;}
+            60% {opacity: 1;width: 0px;}
+            65% {width: 32rem;}
+            90% {opacity: 1;}
+            100% {opacity: 0;width: 32rem;}
+        }
+}
+
+@media(min-width:992px){
+        .word {
+            position: absolute;
+            width: 320px;
+            opacity: 0;
+        }
+    
+        .revealing {
+            font-size: 44px;
+        }
+        div.text-revealed {
+            width: 0px;
+            animation: reveal-992 12s infinite;
+        }
+
+        @keyframes reveal-992 {
+            0%   {opacity: 0;width: 0px;}
+            2%   {opacity: 0;}
+            2.5% {opacity: 1;width: 0px;}
+            6%   {width: 740px;}
+            12%  {opacity: 1;}
+            12.5%{opacity: 1;width: 740px;}
+            13%  {opacity: 1;}
+            18%  {width: 740px;}
+            22.5% {opacity: 1;width: 0px;}
+            23% {opacity: 0;}
+            25% {opacity: 0;width: 0px;
+            }
+            100% {opacity: 0;width: 0px;}
+        }
+
+        div.text-revealed2 {
+            width: 0px;
+            animation: reveal02-992 12s infinite;
+            text-align: left !important;
+            margin-left: -0.3em;
+            overflow: hidden;
+        }
+
+        @keyframes reveal02-992 {
+            25%     {opacity: 0; width: 0px;}
+            27%     {opacity: 0;}
+            27.5%   {opacity: 1;width: 0px;}
+            31%     {width: 320px;}
+            37%     {opacity: 1;}
+            62.5%   {opacity: 1;width: 320px;}
+            88%     {opacity: 1;}
+            90%     {width: 320px;}
+            93.5%   {opacity: 1;width: 0px;}
+            97%     {opacity: 0;}
+            97%     {opacity: 0;width: 0px;}
+            100%    {opacity: 0; width: 0px;}
+        }
+
+        div.text-revealing2:last-of-type {
+            width: 0px;
+            animation: reveal-A-992 12s infinite;        
+        }
+
+        @keyframes reveal-A-992 {
+            0% {opacity: 0;width: 0px;}
+            10% {opacity: 1;width: 0px;}
+            15% {width: 455px;}
+            40% {opacity: 1;}
+            50% {opacity: 0;width: 455px;}
+            100% {opacity: 0;width: 455px;}
+        }
+
+        div.text-revealing3:last-of-type {
+            width: 0px;
+            animation: reveal-B-992 12s infinite;
+        }
+
+        @keyframes reveal-B-992 {
+            0% {opacity: 0;width: 0px;}
+            50% {opacity: 0;width: 0px;}
+            60% {opacity: 1;width: 0px;}
+            65% {width: 445px;}
+            90% {opacity: 1;}
+            100% {opacity: 0;width: 445px;}
+        }
+}
+@media(min-width:1200px){
+    .word {
+            position: absolute;
+            width: 390px;
+            opacity: 0;
+        }
+    
+        .revealing {
+            font-size: 56px;
+        }
+        div.text-revealed {
+            width: 0px;
+            animation: reveal-992 12s infinite;
+        }
+
+        @keyframes reveal-992 {
+            0%   {opacity: 0;width: 0px;}
+            2%   {opacity: 0;}
+            2.5% {opacity: 1;width: 0px;}
+            6%   {width: 920px;}
+            12%  {opacity: 1;}
+            12.5%{opacity: 1;width: 920px;}
+            13%  {opacity: 1;}
+            18%  {width: 920px;}
+            22.5% {opacity: 1;width: 0px;}
+            23% {opacity: 0;}
+            25% {opacity: 0;width: 0px;
+            }
+            100% {opacity: 0;width: 0px;}
+        }
+
+        div.text-revealed2 {
+            width: 0px;
+            animation: reveal02-992 12s infinite;
+            text-align: left !important;
+            margin-left: -0.3em;
+            overflow: hidden;
+        }
+
+        @keyframes reveal02-992 {
+            25%     {opacity: 0; width: 0px;}
+            27%     {opacity: 0;}
+            27.5%   {opacity: 1;width: 0px;}
+            31%     {width: 390px;}
+            37%     {opacity: 1;}
+            62.5%   {opacity: 1;width: 390px;}
+            88%     {opacity: 1;}
+            90%     {width: 390px;}
+            93.5%   {opacity: 1;width: 0px;}
+            97%     {opacity: 0;}
+            97%     {opacity: 0;width: 0px;}
+            100%    {opacity: 0; width: 0px;}
+        }
+
+        div.text-revealing2:last-of-type {
+            width: 0px;
+            animation: reveal-A-992 12s infinite;        
+        }
+
+        @keyframes reveal-A-992 {
+            0% {opacity: 0;width: 0px;}
+            10% {opacity: 1;width: 0px;}
+            15% {width: 575px;}
+            40% {opacity: 1;}
+            50% {opacity: 0;width: 575px;}
+            100% {opacity: 0;width: 575px;}
+        }
+
+        div.text-revealing3:last-of-type {
+            width: 0px;
+            animation: reveal-B-992 12s infinite;
+        }
+
+        @keyframes reveal-B-992 {
+            0% {opacity: 0;width: 0px;}
+            50% {opacity: 0;width: 0px;}
+            60% {opacity: 1;width: 0px;}
+            65% {width: 555px;}
+            90% {opacity: 1;}
+            100% {opacity: 0;width: 555px;}
+        }
+}
+
+#slider{
+    position: relative;
+    height: 180px;
+    padding: 0;
+}

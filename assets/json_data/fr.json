@@ -1,0 +1,132 @@
+{
+    "title": "UbicutoTech",
+    "menu": {
+        "1": "Contactez-nous",
+        "2": "Nos produits",
+        "3": "Notre équipe",
+        "4": "Avantages",
+        "5": "Notre façon de faire",
+        "6": "Nos clients"
+    },
+    "view_slider": {
+        "title": "",
+        "text1": "we offer",
+        "text1a": "custom exclusive teams",
+        "text1b": "offshore",
+        "text1c": "nearshore",
+        "text1d": "onshore",
+        "text2": "let's keep cost low,",
+        "text2b": "and riks lower",
+        "text3": "our mussion",
+        "text3b": "is you success"
+    },
+    "view_our_offer": {
+        "title": "Nos produits",
+        "1": {
+            "subtitle": "Des équipes à la disposition de nos clients",
+            "text": "Grâce à notre service vous pouvez élargir votre entreprise à l’internationale. Vous restez responsable de la gestion des projets et des processus principaux, mais vous pouvez délocaliser des tâches secondaires, comme la formation des équipes, les fiches de salaires et l’infrastructure etc."
+        },
+        "2": {
+            "subtitle": "Applications Web",
+            "text": "Nous nous spécialisons à délivrer des produits d’une haute facilité d’utilisation, scalabilité, sécurité et l’utilisation des dispositifs mobiles, des navigateurs et des plateformes en travaillant avec des plateformes front-end et back-end les plus modernes. Nous nous concentrons sur des interfaces utilisateur interactives et réactives, qui sont basées en HTML/JavaScript, pour leur fonctionnement optimal sur les téléphones et des tablettes PC."
+        },
+        "3": {
+            "subtitle": "Applications Mobile",
+            "text": "Pour pouvoir développer des applications mobiles et des solutions web pour des dispositifs mobiles, notre équipe est composée de programmateurs qui ont de l’expérience tant  dans  le domaine du développement des applications natives iOS et Android qu’avec des solutions hybrides."
+        },
+        "4": {
+            "subtitle": "Systèmes d’Information Géographique",
+            "text": "Nous mettons à disposition des ingénieurs en environnement et des géographes, qui ont de l’expérience dans le domaine d’analyse des cartes et des Systèmes d’Information Géographique (SIG)."
+        },
+        "5": {
+            "subtitle": "User experience (UX) design",
+            "text": "we also design a UI/UX that is easy to use and understand, aiming on achieving the best possible user engagement."
+        },
+        "6": {
+            "subtitle": "Automation Tools",
+            "text": "Social Media, testing, chatbots."
+        }
+    },
+    "view_about": {
+        "title": "UBICUO TECH",
+        "1": "Nous sommes une entreprise mexicaine, spécialisée sur la mise à disposition des talents dans le domaine de la technologie, sur le marché international.",
+        "2": "Notre entreprise se trouve à Guadalajara, deuxième ville du Mexique, qui fait partie des villes à la plus forte croissante technologique d’Amérique Latin. La Cuidad Creativa Digital se trouve aussi à Guadalajara.",
+        "3": "En 2016 nous avons été choisis par le gouvernement des États-Unis pour représenter le Mexique dans le programme de Jóvenes Líderes de la Américas (YLAI).",
+        "4": "Nous travaillons en collaboration avec l’entreprise « 303 Software », dont siège se trouve à Denver, au Colorado. Elle compte plus de 10 ans d’expérience dans le développement  de software et a été nommée 30ième meilleure entreprise des Étas-Unis en 2016."
+    },
+    "view_advantages": {
+        "title": "Avantages",
+        "1": {
+            "subtitle": "REAL TIME COLLABORATION",
+            "text": "Similar time zone allows real time collaboration."
+        },
+        "2": {
+            "subtitle": "30%-40% moins de frais qu’en Europe",
+            "text": "Des salaires plus bas (sans diminuer la qualité), des impôts sur la masse salaire plus bas et une infrastructure plus économique (des bureaux, des ordinateurs, etc.)"
+        },
+        "3": {
+            "subtitle": "Grande compréhensions culturelle",
+            "text": "Une compréhension sans frontières et des visions partagées."
+        },
+        "4": {
+            "subtitle": "Facilité de voyager",
+            "text": "Des voyages économiques et de courte durée nous permettent des réunions personnelles."
+        },
+        "5": {
+            "subtitle": "Protection de propriété intellectuelle",
+            "text": "L’accord de libre échange nord-américain (NAFTA) garantit une protection de PI pour les Ètas-Unis, le Canada et le Mexique."
+        },
+        "6": {
+            "subtitle": "Vitesse",
+            "text": "Le fuseau horaire commun nous permet de résoudre les problèmes entre les équipes en temps réel."
+        }
+    },
+    "view_we": {
+        "title": "Notre façon de faire",
+        "subtitle_1": "END TO END",
+        "image_1": "fr_approach_circle.svg",
+        "subtitle_2": "CUSTOMER EXCLUSIVE TEAMS",
+        "image_2": "fr_cet_circle.svg"
+    },
+    "view_our_clients": {
+        "title": "Nos clients"
+    },
+    "view_contact": {
+        "title": "Contact",
+        "country": "Mexique",
+        "form_data_1": "Nom",
+        "form_data_2": "Adresse électronique",
+        "form_data_3": "Message",
+        "send": "Envoyer"
+    },
+    "view_foreground": {
+        "titla": "Nous",
+        "titl1": "vous",
+        "titlb": "connectons",
+        "titl2": "avec les meilleurs développeurs.",
+
+        "rtxt1": "",
+        "rtxt2": "",
+        "rtxt3": "",
+        "text1": "des équipes à la disposition de nos clients",
+        "text2": "applications mobile",
+        "text3": "applications web",
+        "text4": "UX / UI",
+        "text5": "systèmes d’information géographique",
+        "text6": "applications bot"
+    },
+    "view_testimonials": {
+        "title": "TESTIMONIALS",
+        "1": {
+            "person": "Matt Jaffe",
+            "title": "CEO at 303 Software and President for Entrepreneurs Organization´s Colorado chapter, EOCO.",
+            "link": "http://303software.com/about/people/matt-jaffe",
+            "text": "Ubicuo Tech is 303 Software's go to development partner because they are reliable, communicative, and highly skilled"
+        }
+    },
+    "form": {
+        "title": "Estimate",
+        "button": "Estimate a Project",
+        "link": "site/form"
+    }
+}

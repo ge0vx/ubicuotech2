@@ -1,0 +1,131 @@
+{
+    "title": "UbicutoTech",
+    "menu": {
+        "1": "Contact",
+        "2": "our offer",
+        "3": "about",
+        "4": "advantages",
+        "5": "our approach",
+        "6": "our clients"
+    },
+    "view_slider": {
+        "title": "",
+        "text1": "we offer",
+        "text1a": "custom exclusive teams",
+        "text1b": "offshore",
+        "text1c": "nearshore",
+        "text1d": "onshore",
+        "text2": "let's keep cost low,",
+        "text2b": "and riks lower",
+        "text3": "our mussion",
+        "text3b": "is you success"
+    },
+    "view_our_offer": {
+        "title": "OUR OFFER",
+        "1": {
+            "subtitle": "CUSTOMER EXCLUSIVE TEAMS",
+            "text": "We build an extension of your company at a remote location, this means, you manage and keep your core competence in your company and outsource only non-essential tasks, such as team building, payroll, infrastructure, etc."
+        },
+        "2": {
+            "subtitle": "WEB APPLICATIONS",
+            "text": "We focus on delivering products with the highest levels of usability, scalability, security and integration with mobile devices, browsers and platforms by working on the most modern front-end and back-end platforms, focusing on highly interactive and responsive UI experiences"
+        },
+        "3": {
+            "subtitle": "MOBILE APPLICATIONS",
+            "text": "For our mobile app development and mobile-ready web solutions, we have engineers with experience developing native iOS, Android apps, as well as hybrid solutions."
+        },
+        "4": {
+            "subtitle": "Geographic Information Systems",
+            "text": "We provide environmental and geographic engineers capable of analyzing GIS data."
+        },
+        "5": {
+            "subtitle": "User experience (UX) design",
+            "text": "we also design a UI/UX that is easy to use and understand, aiming on achieving the best possible user engagement."
+        },
+        "6": {
+            "subtitle": "Automation Tools",
+            "text": "Social Media, testing, chatbots."
+        }
+    },
+    "view_about": {
+        "title": "UBICUO TECH",
+        "1": "Is a Mexican company focused on delivering the best tech-oriented talent to the international market.",
+        "2": "We are based in Guadalajara, the Tech-booming city of LATAM and second largest in México. Host city for Ciudad Creativa Digital.",
+        "3": "We were chosen by the U.S. Government of state in 2016 to represent México through the Young Leaders of the Americas Initiative (YLAI) program.",
+        "4": "We work together with 303 Software, a 10+ years of experience Denver, Colorado based company."
+    },
+    "view_advantages": {
+        "title": "ADVANTAGES",
+        "1": {
+            "subtitle": "REAL TIME COLLABORATION",
+            "text": "Similar time zone allows real time collaboration."
+        },
+        "2": {
+            "subtitle": "30%-40% LESS COST THAN INTERNAL U.S. BASED TEAM",
+            "text": "Lower cost of salaries (without lowering quality), payroll taxes and the corresponding cost on offices."
+        },
+        "3": {
+            "subtitle": "HIGH CULTURAL AFFINITY",
+            "text": "high degree of shared understanding and alignment."
+        },
+        "4": {
+            "subtitle": "EASY TRAVEL",
+            "text": "Low cost and short time travel allows face to face meetings."
+        },
+        "5": {
+            "subtitle": "ITELLECTUAL PROPERTY (IP) PROTECTION",
+            "text": "NAFTA incorporates a unified IP protection for US, Canada and México."
+        },
+        "6": {
+            "subtitle": "AGILITY",
+            "text": "Same business hours allows real time problem solving between teams."
+        }
+    },
+    "view_we": {
+        "title": "OUR APPROACH",
+        "subtitle_1": "END TO END",
+        "image_1": "en_approach_circle.svg",
+        "subtitle_2": "CUSTOMER EXCLUSIVE TEAMS",
+        "image_2": "en_cet_circle.svg"
+    },
+    "view_our_clients": {
+        "title": "OUR CLIENTS"
+    },
+    "view_contact": {
+        "title": "CONTACT",
+        "country": "Mexico",
+        "form_data_1": "Name",
+        "form_data_2": "Email address",
+        "form_data_3": "Message",
+        "send": "send"
+    },
+    "view_foreground": {
+        "titla": "We",
+        "titl1": "are your",
+        "titlb": "link",
+        "titl2": "to the most talented developers",
+        "rtxt1": "",
+        "rtxt2": "",
+        "rtxt3": "",
+        "text1": "Customer Exclusive Teams",
+        "text2": "Mobile Applications",
+        "text3": "Web Applications",
+        "text4": "UX / UI",
+        "text5": "Gis Analysis",
+        "text6": "Bot Applications"
+    },
+    "view_testimonials": {
+        "title": "TESTIMONIALS",
+        "1": {
+            "person": "Matt Jaffe",
+            "title": "CEO at 303 Software and President for Entrepreneurs Organization´s Colorado chapter, EOCO.",
+            "link": "http://303software.com/about/people/matt-jaffe",
+            "text": "Ubicuo Tech is 303 Software's go to development partner because they are reliable, communicative, and highly skilled"
+        }
+    },
+    "form": {
+        "title": "Estimate",
+        "button": "Estimate a Project",
+        "link": "site/form"
+    }
+}

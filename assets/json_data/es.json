@@ -1,0 +1,132 @@
+{
+    "title": "UbicutoTech",
+    "menu": {
+        "1": "Contacto",
+        "2": "nuestra oferta",
+        "3": "nosotros",
+        "4": "ventajas",
+        "5": "enfoque",
+        "6": "nuestros clientes"
+    },
+    "view_slider": {
+        "title": "",
+        "text1": "ENSAMBLAMOS",
+        "text1a": "EQUIPOS EXCLUSIVOS PARA CLIENTES",
+        "text1b": "offshore",
+        "text1c": "nearshore",
+        "text1d": "onshore",
+        "text2": "MANTENGAMOS BAJOS COSTOS",
+        "text2b": "SIN AUMENTAR RIESGOS",
+        "text3": "¡NUESTRA MISIÓN",
+        "text3b": "ES TU ÉXITO!"
+    },
+    "view_our_offer": {
+        "title": "NUESTRA OFERTA",
+        "1": {
+            "subtitle": "EQUIPOS EXCLUSIVOS PARA CLIENTES",
+            "text": "Creamos una extensión de su empresa en una ubicación remota, es decir, usted administra y mantiene sus Gerentes de proyecto y Desarrolladores principales en su empresa y subcontrata las tareas no esenciales, como la formación de equipos, la nómina, la infraestructura, etc."
+        },
+        "2": {
+            "subtitle": "APPLICACIONES WEB",
+            "text": "Nos enfocamos en entregar productos con los más altos niveles de usabilidad, escalabilidad, seguridad e integración con dispositivos móviles y navegadores, trabajando con las mas modernas plataformas de Front End y Back End."
+        },
+        "3": {
+            "subtitle": "APLICACIONES MÓVILES",
+            "text": "Para nuestro desarrollo de aplicaciones móviles y soluciones web para dispositivos móviles, contamos con ingenieros con experiencia en el desarrollo de aplicaciones nativas iOS, Android, así como soluciones híbridas."
+        },
+        "4": {
+            "subtitle": "SISTEMAS DE INFROMACIÓN GEOGRÁFICA",
+            "text": "Proveemos Ingenieros Ambientales y/o Geógrafos para hacer análisis de mapas y/o Sistemas de Información Geográficos (SIG)."
+        },
+        "5": {
+            "subtitle": "Diseño de experiencia del usuario (UX)",
+            "text": "También diseñamos una UI / UX que es fácil de usar y comprender, con el objetivo de lograr el mejor compromiso posible del usuario."
+        },
+        "6": {
+            "subtitle": "Herramientas de automatización",
+            "text": "redes sociales, pruebas de desarrollo, chatbots."
+        }
+    },
+    "view_about": {
+        "title": "UBICUO TECH",
+        "1": "Es una empresa mexicana enfocada en entregar el mejor talento con orientación tecnológica al mercado Nacional e Internacional.",
+        "2": "Estamos en Guadalajara, la ciudad con mayor crecimiento tecnológico de LATAM y la segunda más grande en México y anfitriona de Ciudad Creativa Digital.",
+        "3": "Fuimos elegidos por el Gobierno de los EE. UU. en 2016 para representar a México a través del programa “Jóvenes Líderes de las Américas” (YLAI).",
+        "4": "Trabajamos en conjunto con 303 Software, empresa con sede en Denver, Colorado, la cual cuenta con más de 10 años de experiencia desarrollando software y fue reconocida como la 30ª mejor compañía para trabajar en EE. UU. en 2017."
+    },
+    "view_advantages": {
+        "title": "VENTAJAS",
+        "1": {
+            "subtitle": "COLABORACIÓN EN TIEMPO REAL",
+            "text": "Una zona horaria similar permite la colaboración en tiempo real."
+        },
+        "2": {
+            "subtitle": "30%-40% MENOS COSTO QUE EQUIPOS INTERNOS DE EE. UU.",
+            "text": "Menor costo de salarios (sin bajar la calidad), impuestos a la nómina y el costo correspondiente en espacio de oficinas, equipo de cómputo etc."
+        },
+        "3": {
+            "subtitle": "ALTA AFINIDAD CULTURAL",
+            "text": "Alto grado de comprensión y alineación compartida."
+        },
+        "4": {
+            "subtitle": "FACILIDAD DE VIAJE",
+            "text": "Bajo costo y corto tiempo de viaje permite reuniones cara a cara."
+        },
+        "5": {
+            "subtitle": "PROTECCIÓN DE PROPIEDAD INTELECTUAL (PI)",
+            "text": "NAFTA incorpora una protección de PI unificada para EE. UU., Canadá y México."
+        },
+        "6": {
+            "subtitle": "AGILIDAD",
+            "text": "El mismo horario comercial permite la resolución de problemas en tiempo real entre equipos."
+        }
+    },
+    "view_we": {
+        "title": "NUESTROS PROCESOS",
+        "subtitle_1": "END TO END",
+        "image_1": "es_approach_circle.svg",
+        "subtitle_2": "CUSTOMER EXCLUSIVE TEAMS",
+        "image_2": "es_cet_circle.svg"
+    },
+    "view_our_clients": {
+        "title": "NUESTROS CLIENTES"
+    },
+    "view_contact": {
+        "title": "CONTACTO",
+        "country": "México",
+        "form_data_1": "Nombre",
+        "form_data_2": "Correo Electrónico",
+        "form_data_3": "Mensaje",
+        "send": "Enviar"
+    },
+    "view_foreground": {
+        "titla": "Somos",
+        "titl1": "el",
+        "titlb": "enlace",
+        "titl2": "a los desarrolladores más talentosos",
+
+        "rtxt1": "",
+        "rtxt2": "",
+        "rtxt3": "",
+        "text1": "equipos exclusivos para clientes",
+        "text2": "aplicaciones móviles",
+        "text3": "applicaciones web",
+        "text4": "UX / UI",
+        "text5": "sistemas de infromación geográfica",
+        "text6": "applicaciones bot"
+    },
+    "view_testimonials": {
+        "title": "TESTIMONIOS",
+        "1": {
+            "person": "Matt Jaffe",
+            "title": "CEO at 303 Software and President for Entrepreneurs Organization´s Colorado chapter, EOCO.",
+            "link": "http://303software.com/about/people/matt-jaffe",
+            "text": "Ubicuo Tech is 303 Software's go to development partner because they are reliable, communicative, and highly skilled"
+        }
+    },
+    "form": {
+        "title": "Estimar",
+        "button": "Estimatar un Proyecto",
+        "link": "site/form_es"
+    }
+}

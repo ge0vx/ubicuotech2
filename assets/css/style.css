@@ -1,0 +1,983 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html,body{
+  height:90%;
+  width: 100%;
+}
+
+html,body {
+  background-color:white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid{
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-inner,.carousel,.item,.container,.fill {
+  height:100%;
+  width:100%;
+  background-position:center center;
+  background-size:cover;   
+}
+.full-container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+
+.white-section {
+    background-color: #FFF;
+}
+
+.white-section .jumbotron h2{
+    color: #002350;
+    font-weight: 700;
+    font-size: 43px;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 47px;
+}
+
+.white-section .jumbotron p{
+    color: #002350;
+    font-size: 23px;
+    line-height: 31px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: none;
+    min-height: 12em;
+}
+
+.white-section .jumbotron {
+    background-color: #FFF;
+}
+
+
+.card h4{
+    color: #002350;
+    font-size: 18px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    margin: 2em 0;
+}
+
+.card p{
+    color: #002350;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+}
+.no-padding {
+    padding: 0;
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+.no-tb-margin {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.p-card h2{
+    color: #FFF;
+    font-size: 43px;
+    line-height: 47px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+.p-card p, .p-card ul li{
+    color: #FFFFFF;
+    font-size: 23px;
+    line-height: 31px;
+    font-style: normal;
+    font-weight: 400 !important;
+    letter-spacing: 0px;
+    text-transform: none;
+}
+
+.p-card ul li{
+    margin: 1em 0;
+}
+
+.no-b-padding {
+    padding-bottom: 0;
+}
+
+.spc-padding-top {
+    padding-top: 8em;
+}
+
+.carousel-caption{
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.carousel-caption h1, .super-carousel-caption2 h1, .super-carousel-caption2 h1 span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.no-t-padding {
+    padding-top: 0;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.custom-size {
+    width: 100%;
+    max-width: 80px;
+}
+
+.absolute-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.container-custom-navbar-nav {
+    height: 140px;
+}
+
+.vertical-alingn{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.horizontal-alingn{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+.vertical-alingn2{
+  position: absolute;
+  top: 42%;
+  transform: translateY(-50%);
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.custom-navbar {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-default.custom-navbar .navbar-nav>li>a{
+    color: #ffffff;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+.navbar-default.custom-navbar .navbar-nav>li>a:hover {
+    color: #78f0d3;
+}
+
+.navbar-default.custom-navbar .navbar-nav>.active>a,
+.navbar-default.custom-navbar .navbar-nav>.active>a:focus,
+.navbar-default.custom-navbar .navbar-nav>.active>a:hover {
+    color: #78f0d3;
+    background-color: transparent;
+}
+.ubicuo-tech-small-icon {
+    width: 80px;
+}
+.phone-image {
+    position: absolute;
+    right: 0;
+    bottom: -48px;
+    width: 35%;
+    max-width: 450px;
+    z-index: -1;
+}
+
+.carousel-caption {
+    right: 0;
+    left: 0;
+}
+
+li span.hover-to-show{
+    color: transparent;
+}
+
+.hovered{
+    color: #FFF !important;
+}
+
+.p-card form label{
+    color: #FFFFFF;
+}
+
+.p-card form input, .p-card form textarea{
+    border-radius: 0 !important;
+}
+
+.p-card form input[type='submit']{
+    color: #002350;
+    border-color: #78f0d3;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #ffffff;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    border-width: 2px;
+    padding: 10px 43px;
+}
+
+.mapa {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 1 solid red;
+    height: 100%;
+    z-index: -1;
+}
+
+.stcky-menu {
+    height: 0;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    z-index: 99;
+    background-color: #FFF;
+    -webkit-box-shadow: 0 3px 2px -2px #CCC;
+    -moz-box-shadow: 0 3px 2px -2px #CCC;
+    box-shadow: 0 3px 2px -2px #CCC;
+}
+
+.stcky-menu .navbar-default.custom-navbar .navbar-nav>li>a {
+    color: #1a2d45;
+    text-shadow: none;
+}
+
+.stcky-menu .navbar-default.custom-navbar .navbar-nav>li>a:hover {
+    color: #4d6aec !important;
+}
+
+.ubicuo-tech-x-small-icon {
+    width: 50px;
+}
+
+.sticky {
+  height: auto;
+  position: fixed;
+  top: 0;
+}
+
+.icon-prev, .icon-next{
+    border: 1px solid #FFF !important;;
+    line-height: 1.75em !important;;
+    width: 2em !important;
+    height: 2em !important;;
+    border-radius: 50% !important;;
+}
+
+.sticky-nav {
+    padding: 0;
+    margin: 0;
+    border: 0 !important;
+    background-color: transparent;
+}
+
+.abs-img {
+    position: absolute;
+    top: 0;
+}
+
+.stcky-menu .navbar-default .navbar-nav>li>a {
+    color: #1a2d45;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+.stcky-menu .navbar-default .navbar-nav>li>a:hover {
+    color: #4d6aec !important;
+}
+
+.p-card ul, .p-card li{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.no-fr-padding {
+    padding: 0;
+}
+
+.padding-right-custom-1 {
+    padding-right: 55%;
+}
+
+.iphone-wrapper {
+    position: relative;
+    z-index: -1;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.img-customers {
+    height: 50px;
+    cursor: pointer;
+}
+
+.ex-link {
+    color: #FFF;
+    text-decoration: none;
+		border-bottom: 1px solid;
+		border-bottom-color: rgba(#fff, 0.5);
+}
+
+.ex-link:hover, .ex-link:active, .ex-link:visited {
+    background-color: rgba(0,0,0,0.2);
+    color: #FFF;
+		text-decoration: none;
+}
+
+.custom-padding-2 {
+    padding: 0 0 1em;
+}
+
+.card img.card-img{
+    width: 100%;
+    max-width: 200px;
+}
+
+.stcky-menu2 {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #FFF;
+    -webkit-box-shadow: 0 3px 2px -2px #CCC;
+    -moz-box-shadow: 0 3px 2px -2px #CCC;
+    box-shadow: 0 3px 2px -2px #CCC;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #FFF;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.btn.get-in-touch {
+    font-weight: 700;
+    z-index: 999;
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 13px;
+    background: rgba(151,151,151,0.9);
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+
+.btn.get-in-touch:hover {
+  background: #7252CF;
+  text-decoration: none;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+}
+
+.idioms img{
+    height: 18px;
+}
+
+.idioms a{
+    color: #FFF;
+}
+
+.idioms {
+    position: absolute;
+    top: -30px;
+    right: 20px;
+    color: #FFF;
+    font-weight: 700;
+    z-index: 9999;
+    font-size: 13px;
+}
+
+.effect1 {
+    visibility: hidden;
+}
+
+
+.text-js {
+  opacity: 0;
+}
+
+.cursor{
+  color: white;
+  position: relative;
+  font-size: 1em;
+  bottom: 0;
+  right: -5px;
+  z-index: 1;
+  -webkit-animation: flash 0.4s none infinite alternate;
+          animation: flash 0.4s none infinite alternate;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+.custom-height {
+    height: 32px;
+}
+
+.custom-height1 {
+    height: 1.3em;
+    padding: 0;
+    margin: 0;
+}
+
+.word.f-word {
+    color: transparent;
+}
+
+/**second slider**/
+
+
+#mySlides{
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.mySlides{
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.revealing{
+    position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+.fore-title{
+    z-index: 99;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+}
+
+.fore-title hr{
+    width: 30%;
+    border: 1px solid;
+}
+
+.fore-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.fore-footer .container-fluid{
+    padding: 0;
+}
+
+.img-sfore{
+    height: 55px;
+}
+
+.txt-sfore{
+    width: 100%;
+    padding: 1em 0;
+    font-weight: bolder;
+    min-height: 4em;
+    height: 6em;
+    max-height: 6em;
+    text-transform: capitalize !important;
+}
+
+.rotating2 {
+    border: 1px solid transparent;
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.word2{
+    position: absolute;
+    width: 300px;
+    left: 0;
+    opacity: 0;
+    text-align: center;
+}
+
+.word2 .letter{
+    float: inherit !important;
+}
+
+.flags{
+    padding: 0 5px;
+    height:20px;
+}
+
+.flags:hover{
+    text-decoration: none;
+}
+
+.idioms a:hover{
+    text-decoration: none;
+}
+
+.social-item{
+    height: 1em;
+    float: left;
+    margin-top: 5px;
+    padding: 0 5px;
+}
+
+.quotes{
+    position: relative;
+    vertical-align: super;
+}
+
+.testimonial-img{
+    margin: 10px 0;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+}
+
+.testimonial-title{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.social-wrap{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.custom-checkbox .error{
+    font-weight: bold;
+    top: -2.5em;
+    display: block;
+}
+
+.text-custom .error{
+    top: -0.5em;
+}
+
+.sendbutton1{
+    color: #002350;
+    border: 2px solid #78f0d3;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #ffffff;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    border-width: 2px;
+    /* padding: 10px 43px; */
+    height: 3em;
+    width: 200px;
+    line-height: 3em;
+    text-align: center;
+    float: right;
+    margin-top: 5px;
+}
+
+.sendbutton1:hover{
+    text-decoration: none;
+}
+
+table.rtable{
+    border: 1px solid #333;
+}
+
+table.rtable td{
+    border: 1px solid #666;
+    padding: 0.5em 1em;
+}
+
+.margin-t-1em{
+    margin-top: 1em;
+}
+
+.phone-wrapi{
+    text-align: center;
+    position: relative;
+}
+
+.phone-image2{
+    width: 80%;
+    bottom: -4em;
+    right: 10%;
+    max-width: 440px;
+}
+
+@media(max-width:767px){
+
+    .jumbotrom-we{
+        padding: 0 0 0;
+    }
+
+    .phone-image2{
+        position: relative;
+        right: 0;
+    }
+
+    .sendbutton1{
+        float: left;
+    }
+
+    h2.text-quotes{
+        font-size: 1.2em;
+    }
+
+    .fore-footer{
+        visibility: hidden;
+    }
+    .fore-title.vertical-alingn2{
+        top: 50% !important;
+    }
+
+    .fore-title h1{
+        font-size: 32px;
+    }
+
+    .carousel-caption h1, .super-carousel-caption2 h1{
+        font-size: 35px;
+        line-height: 35px;
+        letter-spacing: 0.7px;
+    }
+    
+    .carousel-caption h1 span, .super-carousel-caption2 h1 span{
+        font-size: 17.5px;
+        line-height: 17.5px;
+        letter-spacing: 1.7px;
+    }
+    
+    .carousel-caption{
+        width: 80%
+    }
+    
+    .absolute-menu{
+        display: none;
+    }
+    
+    .stcky-menu2{
+        display: inherit;
+    }
+    
+    #stcky-menu{
+        display: none !important;
+    }
+    
+    .phone-image {
+        position: relative;
+        z-index: 9;
+        width: 75%;
+    }
+    
+    .padding-right-custom-1 {
+        padding-right: 0%;
+    }
+    
+    .p-card h2, .white-section .jumbotron h2 {
+        font-size: 28px;
+    }
+    
+    .p-card p, .p-card ul li, .card p{
+        font-size: 14px !important;
+        font-weight: 400;
+    }
+
+    .img-sfore{
+        height: 35px;  
+    }
+
+    .img-sfore.first1{
+        height: 55px;
+    }
+
+    .col-xs-4 {
+        min-height: 120px;
+        height: 120px;
+    }
+}
+@media(min-width:768px){
+
+    .jumbotrom-we{
+        padding: 0 0 4em;
+    }
+
+    .phone-image2{
+        position: relative;
+        right: 0;
+    }
+
+    .sendbutton1{
+        float: right;
+    }
+
+    h2.text-quotes{
+        font-size: 1.5em;
+        padding: 0 10%;
+    }
+
+    .fore-footer{
+        visibility: inherit;
+    }
+
+    .fore-title.vertical-alingn2{
+        top: 42% !important;
+    }
+
+    .fore-title h1{
+        font-size: 36px;
+    }
+
+    .col-xs-4 {
+        min-height: inherit;
+        height: inherit;
+    }
+
+    .img-sfore{
+        height: 55px;
+    }
+    
+    .img-sfore.first1{
+        height: 70px;
+    }
+
+    .stcky-menu2{
+        display: none;
+    }
+    
+    .carousel-caption h1, .super-carousel-caption2 h1{
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: -1.7px;
+    }
+    
+    .carousel-caption h1 span, .super-carousel-caption2 h1 span{
+        font-size: 25px;
+        line-height: 25px;
+        letter-spacing: 0.7px;
+    }
+    
+    .carousel-caption{
+        width: 70%
+    }
+    
+    .phone-image {
+        position: relative;
+        width: 45%;
+        z-index: 9;
+    }
+    
+    .padding-right-custom-1 {
+        padding-right: 0%;
+    }
+    
+    .p-card h2, .white-section .jumbotron h2 {
+        font-size: 33px;
+    }
+    
+    .p-card p, .p-card ul li, .card p{
+        font-size: 16px !important;
+        font-weight: 400;
+    }
+    
+    .card p{
+        font-size: 14px !important;
+    }
+}
+@media(min-width:992px){
+
+    .jumbotrom-we{
+        padding: 0 0 4em;
+    }
+
+    .phone-image2{
+        position: absolute;
+        right: 10%;
+    }
+
+    h2.text-quotes{
+        font-size: 2em;
+        padding: 0 15%;
+    }
+
+    .fore-title h1{
+        font-size: 48px;
+    }
+    
+    .stcky-menu2{
+        display: none;
+    }
+    
+    .carousel-caption h1, .super-carousel-caption2 h1{
+        font-size: 65px;
+        line-height: 65px;
+        letter-spacing: -1.7px;
+    }
+    
+    .carousel-caption h1 span, .super-carousel-caption2 h1 span{
+        font-size: 32.5px;
+        line-height: 32.5px !important;
+        letter-spacing: 0.7px;
+    }
+    
+    .carousel-caption{
+        width: 60%
+    }
+    
+    .phone-image {
+        position: absolute;
+            width: 35%;
+        z-index: -1;
+    }
+    
+    .padding-right-custom-1 {
+        padding-right: 55%;
+        z-index: -1;
+    }
+    
+    .p-card h2, .white-section .jumbotron h2 {
+        font-size: 38px;
+    }
+    
+    .p-card p, .p-card ul li{
+        font-size: 20px !important;
+        font-weight: 400;
+    }
+    
+    .card p{
+        font-size: 16px !important;
+    }
+}
+@media(min-width:1200px){
+
+    .jumbotrom-we{
+        padding: 0 0 6em;
+    }
+
+    .phone-image2{
+        position: absolute;
+        right: 10%;
+    }
+    
+    .stcky-menu2{
+        display: none;
+    }
+    
+    .carousel-caption h1, .super-carousel-caption2 h1{
+        font-size: 80px;
+        line-height: 80px;
+        letter-spacing: -1.7px;
+    }
+    
+    .carousel-caption h1 span, .super-carousel-caption2 h1 span{
+        font-size: 40px;
+        line-height: 40px !important;
+        letter-spacing: 0.7px;
+    }
+    
+    .carousel-caption{
+        width: 50%
+    }
+    
+    .phone-image {
+        width: 35%;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .padding-right-custom-1 {
+        padding-right: 55%;
+    }
+    
+    .p-card h2, .white-section .jumbotron h2 {
+        font-size: 43px;
+    }
+    
+    .p-card p, .p-card ul li{
+        font-size: 20px !important;
+        font-weight: 400;
+    }
+    
+    .card p{
+        font-size: 16px !important;
+    }
+}

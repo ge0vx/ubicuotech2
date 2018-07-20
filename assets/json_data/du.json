@@ -1,0 +1,131 @@
+{
+    "title": "UbicutoTech",
+    "menu": {
+        "1": "Kontakt",
+        "2": "Unser Angebot",
+        "3": "Über uns",
+        "4": "Vorteile",
+        "5": "Unsere Arbeitsweise",
+        "6": "Unsere Kunden"
+    },
+    "view_slider": {
+        "title": "",
+        "text1": "we offer",
+        "text1a": "custom exclusive teams",
+        "text1b": "offshore",
+        "text1c": "nearshore",
+        "text1d": "onshore",
+        "text2": "let's keep cost low,",
+        "text2b": "and riks lower",
+        "text3": "our mussion",
+        "text3b": "is you success"
+    },
+    "view_our_offer": {
+        "title": "Unser Angebot",
+        "1": {
+            "subtitle": "Kundenorientierte Teams",
+            "text": "Durch Outtasking erweitern Sie Ihr Unternehmen auf internationalem Boden. Projektentwicklung und Kernkompetenzen bleiben weiterhin in Ihrer Hand, ausgelagert werden untergeordnete Aufgaben, wie Teambuilding, Gehaltsabrechnung, Infrastruktur, etc"
+        },
+        "2": {
+            "subtitle": "Web Applikationen",
+            "text": "Unsere Produkte zeichnen sich durch höchste Benutzerfreundlichkeit, Skalierbarkeit, Sicherheit und die Einbeziehung von mobilen Geräten, Browsers und Plattformen aus, da wir mit den modernsten Front-End und Back-End Plattformen arbeiten. Unser Fokus liegt auf interaktiven und responsiven Benutzeroberflächen, die auf HTML5/ JavaScript basieren, da diese optimal auf Handys und Tablets funktionieren."
+        },
+        "3": {
+            "subtitle": "Mobile Applikationen",
+            "text": "Für die Entwicklung unserer mobilen Applikationen und Weblösungen für mobile Geräte punkten wir mit ProgrammiererInnen, die besonders in der Entwicklung von iOS Betriebsystemen und Android Apps, als auch mit hybriden Lösungen Erfahrung haben. "
+        },
+        "4": {
+            "subtitle": "Geographische Informationssysteme",
+            "text": "Unsere UmweltingenieurInnen und GeografInnen  haben Erfahrung mit Kartenanalysen und geographische Informationssystemen."
+        },
+        "5": {
+            "subtitle": "User Experience Design",
+            "text": "Wir bieten benutzerfreundliche Designe, die leicht zu verstehen und zu bedienen sind, um somit bestmögliches User Engagement zu garantieren."
+        },
+        "6": {
+            "subtitle": "Automatisierte  Tools",
+            "text": "Soziale Netzwerke, Testing, Chatbots."
+        }
+    },
+    "view_about": {
+        "title": "UBICUO TECH",
+        "1": "Wir sind ein mexikanisches Unternehmen,  dessen Fokus auf der Bereitstellung von technischen Talenten auf dem internationalen Markt liegt.",
+        "2": "Unser Standort befindet sich in Guadalajara, der zweitgrößten Stadt Mexikos, welche als Technologie-Hotspot Lateinamerikas gilt. Auch die Ciudad Creativa Digital befindet sich in Guadalajara.",
+        "3": "Im Jahr 2016 wurden wir von der US-Regierung ausgewählt, um Mexiko im „Young Leaders of Americas Initiative (YLAI)“-Programm zu repräsentieren.",
+        "4": "Wir arbeiten gemeinsam mit der Firma „303 Software“, mit Sitz in Denver, Colorado, die bereits mehr als 10 Jahre Erfahrung im Bereich der Softwareentwicklung vorweisen kann und die 2017 den 30. Platz im Ranking der besten Unternehmen in den USA belegte."
+    },
+    "view_advantages": {
+        "title": "Vorteile",
+        "1": {
+            "subtitle": "Zusammenarbeit in Echtzeit",
+            "text": "Eine ähnliche Zeitzone ermöglicht uns eine Zusammenarbeit in Echtzeit."
+        },
+        "2": {
+            "subtitle": "30 % - 40 % geringere Kosten als in Europa",
+            "text": "Geringere Gehaltkosten (ohne Qualitätsminderung), geringere Lohnsummensteuer und geringere infrastrukturelle Kosten (Räumlichkeiten, Computer, etc.)."
+        },
+        "3": {
+            "subtitle": "Interkulturelle Kompetenzen",
+            "text": "Kulturelle Ähnlichkeit und grenzenübergreifendes Verständnis."
+        },
+        "4": {
+            "subtitle": "Reisemöglichkeit",
+            "text": "Günstige Reisen und kurze Distanzen ermöglichen uns persönliche Meetings."
+        },
+        "5": {
+            "subtitle": "Schutz des geistigen Eigentums",
+            "text": "Das nordamerikanische Handelsabkommen (NAFTA) garantiert eine IP-Schutzklasse für die USA, Kanada und Mexiko."
+        },
+        "6": {
+            "subtitle": "Schnelligkeit",
+            "text": "Dank der gleichen Zeitzone können wir Probleme in Echtzeit lösen."
+        }
+    },
+    "view_we": {
+        "title": "Unsere Arbeitsweise",
+        "subtitle_1": "END TO END",
+        "image_1": "de_approach_circle.svg",
+        "subtitle_2": "CUSTOMER EXCLUSIVE TEAMS",
+        "image_2": "de_cet_circle.svg"
+    },
+    "view_our_clients": {
+        "title": "Unsere Kunden"
+    },
+    "view_contact": {
+        "title": "Kontakt",
+        "country": "Mexico",
+        "form_data_1": "Name",
+        "form_data_2": "E-Mail-Adresse",
+        "form_data_3": "Nachricht",
+        "send": "Senden"
+    },
+    "view_foreground": {
+        "titla": "Wir",
+        "titl1": "sind Ihre",
+        "titlb": "Verbindung",
+        "titl2": "zu den besten EntwicklerInnen",
+        "rtxt1": "",
+        "rtxt2": "",
+        "rtxt3": "",
+        "text1": "kundenorientierte teams",
+        "text2": "mobile applikationen",
+        "text3": "web applikationen",
+        "text4": "UX / UI",
+        "text5": "geographische informationssysteme",
+        "text6": "applikationen"
+    },
+    "view_testimonials": {
+        "title": "TESTIMONIALS",
+        "1": {
+            "person": "Matt Jaffe",
+            "title": "CEO at 303 Software and President for Entrepreneurs Organization´s Colorado chapter, EOCO.",
+            "link": "http://303software.com/about/people/matt-jaffe",
+            "text": "Ubicuo Tech is 303 Software's go to development partner because they are reliable, communicative, and highly skilled"
+        }
+    },
+    "form": {
+        "title": "Estimate",
+        "button": "Estimate a Project",
+        "link": "site/form"
+    }
+}
