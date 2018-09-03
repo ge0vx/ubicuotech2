@@ -23,9 +23,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-//$config['base_url'] = 'http://localhost/php/ubicuotech/site';
+$config['base_url'] = 'http://localhost/ubicuotech/ubicuotech2/';
 //$config['base_url'] = 'http://104.131.143.76/ubicuotech/';
-$config['base_url'] = 'http://ubicuotech.com';
+//$config['base_url'] = 'http://ubicuotech.com';
 
 /*
 |--------------------------------------------------------------------------

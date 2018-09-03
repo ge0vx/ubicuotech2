@@ -468,7 +468,8 @@
         </div>
         <script src="<?php echo base_url(); ?>assets/js/jquery-3.3.1.min.js"></script>
         <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
-        <script src="http://www.jquery-steps.com/Scripts/Examples?v=szy5AsAuXKpEfwFGRimEy2MhBBlHea801wFJod1pspE1"></script>
+        <script src="<?php echo base_url(); ?>assets/js/jquery2.steps.min.js"></script>
+        <!--<script src="http://www.jquery-steps.com/Scripts/Examples?v=szy5AsAuXKpEfwFGRimEy2MhBBlHea801wFJod1pspE1"></script>-->
         <script src="<?php echo base_url(); ?>assets/js/jquery.steps.min.js"></script>
         <script>
             var form = $("#example-advanced-form").show();

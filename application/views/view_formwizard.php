@@ -469,10 +469,13 @@
         </div>
         <script src="<?php echo base_url(); ?>assets/js/jquery-3.3.1.min.js"></script>
         <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
-        <script src="http://www.jquery-steps.com/Scripts/Examples?v=szy5AsAuXKpEfwFGRimEy2MhBBlHea801wFJod1pspE1"></script>
+        <script src="<?php echo base_url(); ?>assets/js/jquery2.steps.min.js"></script>
+        <!--<script src="http://www.jquery-steps.com/Scripts/Examples?v=szy5AsAuXKpEfwFGRimEy2MhBBlHea801wFJod1pspE1"></script>-->
         <script src="<?php echo base_url(); ?>assets/js/jquery.steps.min.js"></script>
+        
         <script>
             var form = $("#example-advanced-form").show();
+
             form.steps({
                 headerTag: "h3",
                 bodyTag: "fieldset",
@@ -517,12 +520,16 @@
                 },
                 onFinished: function (event, currentIndex)
                 {
-                    
+                    console.log("button ", this);
+                    console.log("button ", $(this).children().last().find("ul").children().last()).find("a");
+
                     var data = $("#example-advanced-form").serialize();
-                    
                     var file_data = $('#file1').prop('files')[0];
                     var form_data = new FormData();
                     form_data.append('file', file_data);
+
+
+                    /*
                     $.ajax({
                         url: '<?php echo base_url(); ?>upload/upload_file', // point to server-side controller method
                         dataType: 'text', // what to expect back from the server
@@ -557,6 +564,7 @@
                             console.log(response);
                         }
                     });
+                    */
                 }
 
             }).validate({
@@ -646,34 +654,39 @@
         </script>
         <script>
             function bs_input_file() {
-	$(".input-file").before(
-		function() {
-			if ( ! $(this).prev().hasClass('input-ghost') ) {
-				var element = $("<input id='file1' accept='application/pdf' type='file' class='input-ghost' style='visibility:hidden; height:0'>");
-				element.attr("name",$(this).attr("name"));
-				element.change(function(){
-					element.next(element).find('input').val((element.val()).split('\\').pop());
-				});
-				$(this).find("button.btn-choose").click(function(){
-					element.click();
-				});
-				$(this).find("button.btn-reset").click(function(){
-					element.val(null);
-					$(this).parents(".input-file").find('input').val('');
-				});
-				$(this).find('input').css("cursor","pointer");
-				$(this).find('input').mousedown(function() {
-					$(this).parents('.input-file').prev().click();
-					return false;
-				});
-				return element;
-			}
-		}
-	);
-}
-$(function() {
-	bs_input_file();
-});
+            	$(".input-file").before(
+            		function() {
+            			if ( ! $(this).prev().hasClass('input-ghost') ) {
+            				var element = $("<input id='file1' accept='application/pdf' type='file' class='input-ghost' style='visibility:hidden; height:0'>");
+            				element.attr("name",$(this).attr("name"));
+            				element.change(function(){
+            					element.next(element).find('input').val((element.val()).split('\\').pop());
+            				});
+            				
+                            $(this).find("button.btn-choose").click(function(){
+            					element.click();
+            				});
+            				
+                            $(this).find("button.btn-reset").click(function(){
+            					element.val(null);
+            					$(this).parents(".input-file").find('input').val('');
+            				});
+
+            				$(this).find('input').css("cursor","pointer");
+            				
+                            $(this).find('input').mousedown(function() {
+            					$(this).parents('.input-file').prev().click();
+            					return false;
+            				});
+
+            				return element;
+            			}
+            		}
+            	);
+            }
+            $(function() {
+            	bs_input_file();
+            });
         </script>
     </body>
 </html>

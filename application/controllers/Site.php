@@ -4,23 +4,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Site extends CI_Controller {
 	public function index()
 	{
-		$this->en();
+		$this->sprint();
 	}
 
-	public function singlepage($data){
+	public function ubicuotechMain($data){
 		$this->load->view("view_head", $data);
-		$this->load->view("view_loader");
-		$this->load->view("view_sticky_menu1");
-		$this->load->view("view_absolute_menu");
-		$this->load->view("view_foreground");
-		$this->load->view("view_sticky_menu2");
-		$this->load->view("view_our_offer");
-		$this->load->view("view_about");
-		$this->load->view("view_advantages");
-		$this->load->view("view_we");
-		$this->load->view("view_clients");
+		$this->load->view("view_ubicuotech_main");
 		$this->load->view("view_contact");
 		$this->load->view("view_footer");
+	}
+
+	public function ubicuotechsprint($data){
+		$this->load->view("view_head_sprint", $data);
+		$this->load->view("view_ubicuotech_sprint");
+		$this->load->view("view_contact");
+		$this->load->view("view_footer_sprint");
 	}
 
 	public function formpage($data){
@@ -39,28 +37,34 @@ class Site extends CI_Controller {
 		$this->load->view("view_formwizard_es");
 	}
 
+	public function sprint(){
+		$this->load->model("Model_get");
+		$data["results"] = $this->Model_get->getData('es');
+		$this->ubicuotechsprint($data);
+	}
+
 	public function en(){
 		$this->load->model("Model_get");
 		$data["results"] = $this->Model_get->getData('en');
-		$this->singlepage($data);
+		$this->ubicuotechMain($data);
 	}
 
 	public function es(){
 		$this->load->model("Model_get");
 		$data["results"] = $this->Model_get->getData('es');
-		$this->singlepage($data);
+		$this->ubicuotechMain($data);
 	}
 
 	public function du(){
 		$this->load->model("Model_get");
 		$data["results"] = $this->Model_get->getData('du');
-		$this->singlepage($data);
+		$this->ubicuotechMain($data);
 	}
 
 	public function fr(){
 		$this->load->model("Model_get");
 		$data["results"] = $this->Model_get->getData('fr');
-		$this->singlepage($data);
+		$this->ubicuotechMain($data);
 	}
 
 	public function form(){
@@ -155,7 +159,8 @@ class Site extends CI_Controller {
 
 				$mail->setFrom('administrador@ubicuotech.mx', 'Ubicuotech Encuesta (no-reply)');
 				/*eorozco@ubicuotech.com*/
-				$mail->addAddress('eorozco@ubicuotech.com', 'Efrain Orozco');
+				/*$mail->addAddress('eorozco@ubicuotech.com', 'Efrain Orozco');*/
+				$mail->addAddress('geovapb@gmail.com', 'Giovany');
 				$mail->addAddress('giovany@ubicuotech.mx', 'Giovany');
 				$mail->Subject = 'UbicuoTech Encuesta';
 				$mail->Body    = '<h4><strong>Resutados de Encuesta</strong></h4><br/>'.$rtable;
