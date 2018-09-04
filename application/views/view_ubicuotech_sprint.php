@@ -122,7 +122,7 @@
                         <div class="card">
                             <img class="custom-size" src="<?php echo base_url(); ?>assets/img/svg/offer_mobile.svg" alt="real time">
                             <h5>
-                                <b>PROTOTIPO DE TU APLICACIÓN CON DISEÑO UI/UX</b>
+                                PROTOTIPO DE TU APLICACIÓN CON DISEÑO UI/UX<
                             </h5>
                         </div>
                     </div>
@@ -130,7 +130,7 @@
                         <div class="card">
                             <img class="custom-size" src="<?php echo base_url(); ?>assets/img/svg/offer_web.svg" alt="lower cost">
                             <h5>
-                            <b>PÁGINA WEB DE ATERRIZAJE</b>
+                                PÁGINA WEB DE ATERRIZAJE
                             </h5>
                         </div>
                     </div>
@@ -139,7 +139,7 @@
                         <div class="card">
                             <img class="custom-size " src="<?php echo base_url(); ?>assets/img/svg/offer_gis.svg" alt="affinity">
                             <h5>
-                                <b>HERRAMIENTA PARA SIMULAR EL POTENCIAL DE NEGOCIO DE TU APP</b>
+                                HERRAMIENTA PARA SIMULAR EL POTENCIAL DE NEGOCIO DE TU APP
                             </h5>
                         </div>
                     </div>
@@ -148,7 +148,7 @@
                         <div class="card">
                             <img class="custom-size " src="<?php echo base_url(); ?>assets/img/svg/offer_ux.svg" alt="travel">
                             <h5>
-                                <b>DISEÑO DE LOGO E ÍCONO DE TU PROTOTIPO</b>
+                                DISEÑO DE LOGO E ÍCONO DE TU PROTOTIPO
                             </h5>
                         </div>
                     </div>
@@ -157,7 +157,7 @@
                         <div class="card">
                             <img class="custom-size " src="<?php echo base_url(); ?>assets/img/svg/offer_cet.svg" alt="affinity">
                             <h5>
-                                <b>RETROALIMENTACIÓN DE TUS USUARIOS</b>
+                                RETROALIMENTACIÓN DE TUS USUARIOS
                             </h5>
                         </div>
                     </div>
