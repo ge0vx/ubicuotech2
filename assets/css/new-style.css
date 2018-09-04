@@ -44,6 +44,17 @@ body,a,h1,h2,h3,h4,h5,h6,h7,p,ul,ol,li,span{
     cursor: pointer;
 }
 
+.rounder2{
+    border-radius: 50px !important;
+    background-color: #44A5AF !important;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: 700;
+}
+.rounder2:hover{
+    color: #FFF;
+}
+
 .bondr-logo100{
     width: 100%;
     max-width: 290px;
@@ -68,7 +79,7 @@ body,a,h1,h2,h3,h4,h5,h6,h7,p,ul,ol,li,span{
 }
 
 .blue-bckgrnd{
-    background-image: url("../img/fondo-azul-cambio.jpg");
+    background-image: url("../img/fondo2-bootcamp.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -86,8 +97,29 @@ body,a,h1,h2,h3,h4,h5,h6,h7,p,ul,ol,li,span{
 
 .g-caso{
     padding: 0.25em 0.5em;
-    background-color: #FFFF00;
+    background-color: #FCCC32;
     color: #FFF;
     font-weight: bold;
     float: left;
+}
+
+.central-bosh-img{
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 1em;
+}
+
+u{
+    color: #369BFF;
+    cursor: pointer;
+}
+
+.g-stores{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.store{
+    width: 120px;
 }

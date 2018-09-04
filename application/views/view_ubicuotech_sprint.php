@@ -90,7 +90,7 @@
                    <div class="row">
                        <div class="col-sm-offset-1 col-sm-4 col-xs-12">
                            <div class="principal-content">
-                               <h3 class="text-left">Con STARTAPP SPRINT validatu idea de App en 3 semanas.</h3>
+                               <h3 class="text-left">Con STARTAPP SPRINT valida tu idea de App en 3 semanas.</h3>
                                <p class="text-justify">
                                     Te damos las herramientas que necesitas para
                                     <b>analizar el potencial</b> detrás de tu Aplicación Móvil 
@@ -101,8 +101,7 @@
                        </div>
                        <div class="col-sm-offset-2 col-sm-4 col-xs-12">
                            <!--<img style="width: 100%" src="<?php echo base_url(); ?>assets/img/Selection_030.png" alt="no youtube video">-->
-                           <img src="<?php echo base_url(); ?>assets/img/logos/logo-ubicuo-menu.png" alt="UBICUOTECH">
-                           <h2 class="text-center">UBICUOTECH</h2>
+                           <img style="width: 100%; max-width:270px" src="<?php echo base_url(); ?>assets/img/Logo-UT.png" alt="UBICUOTECH">
                        </div>
                    </div>
                 </div>
@@ -113,7 +112,7 @@
            <div class="g-advantages white-section">
                <div class="jumbotron text-center" style="margin: 0">
                <div class="principal-content">
-                    <h3>¿QUÉ OBTENGO CON ESTE SERVICIO?</h3>
+                    <h3 style="font-weight: 400 !important">¿QUÉ OBTENGO CON ESTE SERVICIO?</h3>
                </div>
             </div>
             <div class="jumbotron text-center" style="padding-top: 0; padding-bottom: 0;">
@@ -167,8 +166,8 @@
                 </div>
                 <div class="jumbotron text-center" style="margin: 0">
                <div class="principal-content">
-                    <h3 style="margin-top: 0">
-                        <b>Y lo más importante, ¡Seguridad para invertir!</b>
+                    <h3 style="margin-top: 0; font-weight: 700">
+                        Y lo más importante, ¡Seguridad para invertir!
                     </h3>
                </div>
                <div class="principal-content">
@@ -231,19 +230,35 @@
                     <div class="container">
                         <div class="row" style="padding: 6em 0">
                             <div class="col-xs-12 text-center">
-                                
-                                <div class="principal-content" style="background-color: #FFF; max-width: 420px; margin: 0 auto; padding: 1em 1em 2em;">
+                                <div class="principal-content" style="background-color: #FFF; max-width: 420px; margin: 0 auto; padding: 1em 2em 2em;">
                                    <h4 class="text-center" style="font-size: 2em">
                                        <b>¡Únete al próximo BOOTCAMP!</b>
                                    </h4>
                                    <br/>
                                    <p class="text-center">
                                        <b>Del 17 de Septiembre al 05 de Octubre</b>
+                                       <br/>
+                                       <b>Lugar:</b> CENTRAL BOSH
+                                       <br/>
+                                        <a target="_blank" href="https://www.google.com.mx/maps/place/Centraal+Bosch/@20.6751803,-103.3949403,17z/data=!3m1!4b1!4m5!3m4!1s0x8428ae6ff294c2ad:0xde937c419458a210!8m2!3d20.6751803!4d-103.3927516">
+                                            <u>
+                                            Av. Ignacio L Vallarta # 3300, Plaza Sania 2do piso.
+                                            </u>
+                                        </a>
                                        <br/><br/>
-                                        <b>Ahorra</b> más de $ 8,000 MXN, <b>trabaja</b> con otros emprendedores, y ¡<b>Aprovecha</b> las sorpresas que les tenemos!
+                                        <b>Ahorra</b> $ 10,000 MXN con el 35% de descuento. <b>trabaja</b> con otros emprendedores, y ¡<b>Aprovecha</b> las sorpresas que les tenemos!
                                    </p>
                                    <a href="#contact" class="btn btn-danger rounder">APARTAR MI LUGAR</a>
                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 text-center">
+                                <img class="central-bosh-img" src="<?php echo base_url(); ?>assets/img/foto-1-central-bosh-bootcamp.png" alt="">
+                            </div>
+                            <div class="col-xs-12 col-sm-6 text-center">
+                                <img class="central-bosh-img" src="<?php echo base_url(); ?>assets/img/foto-2-central-bosh-bootcamp.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -263,7 +278,9 @@
                                 <br/>
                                 <br/>
                                 <h3 class="text-center">
-                                    <img class="bondr-logo100" src="<?php echo base_url(); ?>assets/img/Logo-BondR-black.png" alt="logo">
+                                    <a href="http://bondr.mx/">
+                                        <img class="bondr-logo100" src="<?php echo base_url(); ?>assets/img/Logo-BondR-black.png" alt="logo">
+                                    </a>
                                 </h3>
                                <p class="text-justify">
                                <b>
@@ -272,12 +289,24 @@
                                <br/><br/>
                                     Todo comenzó con una <b>idea</b> que se tranformó en <b>prototipo</b> y ahora, después de solo 4 meses, ya está <b>publicada en las tiendas</b>.
                                </p>
-                               <a href="#contact" class="btn btn-danger rounder">¡QUIERO COMENZAR!</a>
+                               <a target="_blank" href="https://marvelapp.com/901jice/screen/43550967" class="btn rounder2" style="float:left">VER PROTOTIPO</a>
+
+                               <a target="_blank" href="http://bondr.mx/" class="btn rounder2" style="float:right">VER PÁGINA WEB</a>
                            </div>
                        </div>
                        
                        <div class="col-sm-offset-1 col-sm-6 col-xs-12">
                            <img style="width: 100%; padding-top: 57px" src="<?php echo base_url(); ?>assets/img/Celular-blanco.png" alt="celular blanco">
+                           <div class="g-stores">
+                                <a href="https://itunes.apple.com/mx/app/bondr/id1433998883?mt=8" target="_blank">
+                                   <img class="store" src="<?php echo base_url(); ?>assets/img/app-store.png" alt="app-store">
+                                </a>
+                               <br/>
+                               <br/>
+                                <a href="https://play.google.com/store/apps/details?id=com.ubicuotech.bondr" target="_blank">
+                                    <img class="store" src="<?php echo base_url(); ?>assets/img/google-play.png" alt="google-play">
+                                </a>
+                           </div>
                        </div>
                    </div>
                 </div>
