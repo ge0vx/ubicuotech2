@@ -15,7 +15,7 @@ body,a,h1,h2,h3,h4,h5,h6,h7,p,ul,ol,li,span{
 
 .principal-content2 p{
     font-size: 1em !important;
-    line-height: 1em !important;
+    line-height: 1.2em !important;
     min-height: inherit !important;
     color: #000 !important;
 }
