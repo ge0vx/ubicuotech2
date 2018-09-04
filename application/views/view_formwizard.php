@@ -520,16 +520,14 @@
                 },
                 onFinished: function (event, currentIndex)
                 {
-                    console.log("button ", this);
-                    console.log("button ", $(this).children().last().find("ul").children().last()).find("a");
+                    //console.log("button ", this);
+                    //console.log("button ", $(this).children().last().find("ul").children().last()).find("a");
 
                     var data = $("#example-advanced-form").serialize();
                     var file_data = $('#file1').prop('files')[0];
                     var form_data = new FormData();
                     form_data.append('file', file_data);
 
-
-                    /*
                     $.ajax({
                         url: '<?php echo base_url(); ?>upload/upload_file', // point to server-side controller method
                         dataType: 'text', // what to expect back from the server
@@ -564,7 +562,7 @@
                             console.log(response);
                         }
                     });
-                    */
+                    
                 }
 
             }).validate({

@@ -7,8 +7,9 @@
             </svg>
         </div>
     </div>
-</div>      <!-- sticky menu TOP -->
-      <div class="container-fluid stcky-menu2">
+</div>
+<!-- sticky menu TOP -->
+<div class="container-fluid stcky-menu2">
            <nav class="navbar navbar-default sticky-nav">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -31,9 +32,13 @@
                         <a style="border: 1px solid #002350" class="btn-costumers" href="#">
                             SPRINT                        </a>
                     </li>
-                    <li><a href="#contact">DESARROLLO</a></li>
-                    <li><a href="#weoffer">Estimar</a></li>
-                    <li><a href="#we">CONTACTO</a></li>
+                    <li>
+                        <a href="<?php echo base_url(); ?>site/es">UBICUOTECH</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo base_url(); ?>site/form_es">Estimar</a>
+                    </li>
+                    <li><a href="#contact">CONTACTO</a></li>
                 </ul>
             </div>
         </nav>
@@ -64,9 +69,15 @@
                         <a style="border: 1px solid #002350" class="btn-costumers" href="#">
                              SPRINT                        </a>
                     </li>
-                    <li><a href="#contact">Desarrollo</a></li>
-                    <li><a href="#weoffer">Estimar</a></li>
-                    <li><a href="#we">Contacto</a></li>
+                    <li>
+                        <a href="<?php echo base_url(); ?>site/es">
+                            UBICUOTECH
+                        </a>
+                    </li>
+                    <li>
+                    <a href="<?php echo base_url(); ?>site/form_es">Estimar</a>
+                    </li>
+                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </div>
         </nav>

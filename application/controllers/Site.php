@@ -9,7 +9,7 @@ class Site extends CI_Controller {
 
 	public function ubicuotechMain($data){
 		$this->load->view("view_head", $data);
-		$this->load->view("view_ubicuotech_main");
+		$this->load->view("view_ubicuotech_main2");
 		$this->load->view("view_contact");
 		$this->load->view("view_footer");
 	}
@@ -159,8 +159,8 @@ class Site extends CI_Controller {
 
 				$mail->setFrom('administrador@ubicuotech.mx', 'Ubicuotech Encuesta (no-reply)');
 				/*eorozco@ubicuotech.com*/
-				/*$mail->addAddress('eorozco@ubicuotech.com', 'Efrain Orozco');*/
-				$mail->addAddress('geovapb@gmail.com', 'Giovany');
+				$mail->addAddress('eorozco@ubicuotech.com', 'Efrain Orozco');
+				//$mail->addAddress('geovapb@gmail.com', 'Giovany');
 				$mail->addAddress('giovany@ubicuotech.mx', 'Giovany');
 				$mail->Subject = 'UbicuoTech Encuesta';
 				$mail->Body    = '<h4><strong>Resutados de Encuesta</strong></h4><br/>'.$rtable;
