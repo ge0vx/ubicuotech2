@@ -2,7 +2,7 @@ body,a,h1,h2,h3,h4,h5,h6,h7,p,ul,ol,li,span{
     font-family: 'Montserrat';
 }
 
-.principal-content h3{
+.principal-content h3, .principal-content h2{
     font-weight: 900 !important;
 }
 
@@ -125,3 +125,13 @@ u{
 }
 
 /****/
+
+@media(min-width:1200px){
+    .principal-content p {
+        font-size: 1.5em !important;
+    }
+
+    .principal-content h3{
+        font-size: 30px;
+    }
+}

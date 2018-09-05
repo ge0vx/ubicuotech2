@@ -88,7 +88,7 @@
             <div class="jumbotron text-center" style="padding-top: 12em; padding-bottom:4em; background-color: transparent !important">
                 <div class="container">
                    <div class="row">
-                       <div class="col-sm-offset-1 col-sm-4 col-xs-12">
+                       <div class="col-lg-offset-0 col-lg-6 col-sm-offset-1 col-sm-4 col-xs-12">
                            <div class="principal-content">
                                <h3 class="text-left">Con STARTAPP SPRINT valida tu idea de App en 3 semanas.</h3>
                                <p class="text-justify">
@@ -96,12 +96,12 @@
                                     <b>analizar el potencial</b> detrás de tu Aplicación Móvil 
                                     y puedas <b>invertir con toda seguridad</b>.
                                </p>
-                               <a href="#contact" class="btn btn-danger rounder">CONTÁCTAME</a>
+                               <a href="#contact" class="btn btn-danger rounder">CONTACTANOS</a>
                            </div>
                        </div>
-                       <div class="col-sm-offset-2 col-sm-4 col-xs-12">
+                       <div class="col-lg-offset-0 col-lg-6 col-sm-offset-2 col-sm-4 col-xs-12">
                            <!--<img style="width: 100%" src="<?php echo base_url(); ?>assets/img/Selection_030.png" alt="no youtube video">-->
-                           <img style="width: 100%; max-width:270px" src="<?php echo base_url(); ?>assets/img/Logo-UT.png" alt="UBICUOTECH">
+                           <img style="width: 100%; max-width:362px; margin:2em 0" src="<?php echo base_url(); ?>assets/img/Logo-Startapp-Sprint2.png" alt="UBICUOTECH">
                        </div>
                    </div>
                 </div>
@@ -171,7 +171,7 @@
                     </h3>
                </div>
                <div class="principal-content">
-                    <a href="#contact" class="btn btn-danger rounder">CONTÁCTAME</a>
+                    <a href="#contact" class="btn btn-danger rounder">CONTACTANOS</a>
                </div>
             </div>
            </div>
@@ -248,7 +248,7 @@
                                        <br/><br/>
                                         <b>Ahorra</b> $ 10,000 MXN con el 35% de descuento. <b>trabaja</b> con otros emprendedores, y ¡<b>Aprovecha</b> las sorpresas que les tenemos!
                                    </p>
-                                   <a href="#contact" class="btn btn-danger rounder">APARTAR MI LUGAR</a>
+                                   <a href="#contact" class="btn btn-danger rounder" style="font-size:1.5em">APARTAR MI LUGAR</a>
                                </div>
                             </div>
                         </div>
