@@ -114,12 +114,6 @@ u{
     cursor: pointer;
 }
 
-.g-stores{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
 .store{
     width: 120px;
 }

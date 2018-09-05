@@ -56,7 +56,6 @@ html,body {
     background-color: #FFF;
 }
 
-
 .card h4{
     color: #002350;
     font-size: 18px;
@@ -687,6 +686,16 @@ table.rtable td{
 
 @media(max-width:767px){
 
+    .g-stores{
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .card{
+        padding-bottom: 2em;
+    }
+
     .jumbotrom-we{
         padding: 0 0 0;
     }
@@ -777,6 +786,17 @@ table.rtable td{
 }
 @media(min-width:768px){
 
+    .card{
+        padding-bottom: 0;
+    }
+
+    .g-stores{
+        position: absolute;
+        bottom: 0;
+        width: auto;
+        right: 0;
+    }
+
     .jumbotrom-we{
         padding: 0 0 4em;
     }
@@ -863,6 +883,7 @@ table.rtable td{
         font-size: 14px !important;
     }
 }
+
 @media(min-width:992px){
 
     .jumbotrom-we{
