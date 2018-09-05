@@ -112,7 +112,7 @@
            <div class="g-advantages white-section">
                <div class="jumbotron text-center" style="margin: 0">
                <div class="principal-content">
-                    <h3 style="font-weight: 400 !important">¿QUÉ OBTENGO CON ESTE SERVICIO?</h3>
+                    <h3 style="font-weight: 400 !important">¿QUÉ OBTENGO AL FINAL DEL SPRINT?</h3>
                </div>
             </div>
             <div class="jumbotron text-center" style="padding-top: 0; padding-bottom: 0;">
@@ -122,7 +122,7 @@
                         <div class="card">
                             <img class="custom-size" src="<?php echo base_url(); ?>assets/img/svg/offer_mobile.svg" alt="real time">
                             <h5>
-                                PROTOTIPO DE TU APLICACIÓN CON DISEÑO UI/UX<
+                                PROTOTIPO DE TU APLICACIÓN CON DISEÑO UI/UX
                             </h5>
                         </div>
                     </div>
