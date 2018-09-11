@@ -119,10 +119,16 @@ class Site extends CI_Controller {
 			fclose($fh);
 		}
 		//echo json_encode($data_to_write);
-		echo json_encode($this->phpmailer($data_to_write));
+		echo json_encode($this->phpmailer($data_to_write, "Formulario de Encuesta"));
 	}
 
-	function phpmailer($data_to_write){
+	public function recibecontactform(){
+		$data = $this->input->post('data');
+		$data_to_write = $data["data"];
+		echo json_encode($this->phpmailer($data_to_write, "Formulario de Contacto"));
+	}
+
+	function phpmailer($data_to_write, $formName){
 		$arraytext = (explode("&",$data_to_write));
 		$text_procd = "";
 		$rowbody = "";
@@ -159,11 +165,11 @@ class Site extends CI_Controller {
 
 				$mail->setFrom('administrador@ubicuotech.mx', 'Ubicuotech Encuesta (no-reply)');
 				/*eorozco@ubicuotech.com*/
-				$mail->addAddress('eorozco@ubicuotech.com', 'Efrain Orozco');
-				//$mail->addAddress('geovapb@gmail.com', 'Giovany');
+				//$mail->addAddress('eorozco@ubicuotech.com', 'Efrain Orozco');
+				$mail->addAddress('geovapb@gmail.com', 'Giovany');
 				$mail->addAddress('giovany@ubicuotech.mx', 'Giovany');
-				$mail->Subject = 'UbicuoTech Encuesta';
-				$mail->Body    = '<h4><strong>Resutados de Encuesta</strong></h4><br/>'.$rtable;
+				$mail->Subject = 'UbicuoTech '. $formName;
+				$mail->Body    = '<h4><strong>Resutados de '.$formName.'</strong></h4><br/>'.$rtable;
 				$mail->AltBody = $text_procd;
 				if (!$mail->send()) {
 					return "Mailer Error: " . $mail->ErrorInfo;

@@ -118,7 +118,11 @@ u{
     width: 120px;
 }
 
-/****/
+#loading-gift{
+    width: 50px;
+    display: none;
+    float: right;
+}
 
 @media(min-width:1200px){
     .principal-content p {

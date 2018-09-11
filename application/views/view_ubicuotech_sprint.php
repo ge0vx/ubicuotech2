@@ -246,7 +246,7 @@
                                             </u>
                                         </a>
                                        <br/><br/>
-                                        <b>Ahorra</b> $ 10,000 MXN con el 35% de descuento. <b>trabaja</b> con otros emprendedores, y ¡<b>Aprovecha</b> las sorpresas que les tenemos!
+                                        <b>Ahorra</b> $ 10,000 MXN con el 35% de descuento. <b>Trabaja</b> con otros emprendedores, y ¡<b>Aprovecha</b> las sorpresas que les tenemos!
                                    </p>
                                    <a href="#contact" class="btn btn-danger rounder" style="font-size:1.4em">APARTAR MI LUGAR</a>
                                </div>
@@ -305,14 +305,10 @@
                        <div class="col-sm-offset-1 col-sm-6 col-xs-12">
                            <img style="width: 100%; padding-top: 57px" src="<?php echo base_url(); ?>assets/img/Celular-blanco.png" alt="celular blanco">
                            <div class="g-stores">
-                                <a href="https://itunes.apple.com/mx/app/bondr/id1433998883?mt=8" target="_blank">
-                                   <img class="store" src="<?php echo base_url(); ?>assets/img/app-store.png" alt="app-store">
-                                </a>
-                               <br/>
-                               <br/>
-                                <a href="https://play.google.com/store/apps/details?id=com.ubicuotech.bondr" target="_blank">
-                                    <img class="store" src="<?php echo base_url(); ?>assets/img/google-play.png" alt="google-play">
-                                </a>
+                                <a href="https://itunes.apple.com/mx/app/bondr/id1433998883?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/es-es/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;"></a>
+                                    <br/>
+                                    <br/>
+                               <a href='https://play.google.com/store/apps/details?id=com.ubicuotech.bondr&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img style="width:151px" alt='Disponible en Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/es_badge_web_generic.png'/></a>
                            </div>
                        </div>
                    </div>
