@@ -25,6 +25,7 @@
                                         <?php echo $title ?>
                                         <a class="sendbutton1" href="<?php echo (base_url() . $link); ?>"><?php echo $form; ?></a>
                                     </h2>
+                                    <br/>
                                     <h2 class="text-left">
                                         <span style="color:transparent;">-</span>
                                         <a class="social-link" href="https://twitter.com/UbicuoTech" target="_blank" title="twitter">

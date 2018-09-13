@@ -291,12 +291,12 @@
                                </p>
                                <div class="container-fluid" style="margin:0; padding:0;">
                                 <div class="row">
-                                <div class="col-xs-12 col-lg-6 text-center" style="padding-bottom:1em;">
-                                    <a target="_blank" href="https://marvelapp.com/901jice/screen/43550967" class="btn rounder2">VER PROTOTIPO</a> 
-                                </div>
-                                <div class="col-xs-12 col-lg-6 text-center" style="padding-bottom:1em;">
-                                    <a target="_blank" href="http://bondr.mx/" class="btn rounder2">VER PÁGINA WEB</a>
-                                </div>
+                                  <div class="col-xs-12 col-lg-6 text-center" style="padding-bottom:1em;">
+                                      <a target="_blank" href="https://marvelapp.com/901jice/screen/43550967" class="btn rounder2">VER PROTOTIPO</a> 
+                                  </div>
+                                  <div class="col-xs-12 col-lg-6 text-center" style="padding-bottom:1em;">
+                                      <a target="_blank" href="http://bondr.mx/" class="btn rounder2">VER PÁGINA WEB</a>
+                                  </div>
                                 </div>
                                </div>
                            </div>
