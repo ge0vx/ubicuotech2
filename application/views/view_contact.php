@@ -59,7 +59,7 @@
                                           <textarea required="required" class="form-control" rows="2" id="mensage2" name="mensaje2"></textarea>
                                       </div>
                                       <input type="submit" value="<?php echo $se ?>" class="wpcf7-form-control wpcf7-submit" style="float:left">
-                                      <img id="loading-gift" src="<?php echo base_url(); ?>assets/img/ajax-loader-2.gif" alt="loading" style="float:left">
+                                      <img id="loading-gift" src="<?php echo base_url(); ?>assets/img/ajax-loader-2.gif" alt="loading" style="float:left; display: none;">
 
                                     </form>
                                     <br/>
